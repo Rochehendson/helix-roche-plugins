@@ -1,6 +1,6 @@
 put them into gamemodes\helix\gamemode\core\hooks\cl_hooks.lua	
 
-surface.CreateFont("BetaHud", {
+	surface.CreateFont("BetaHud", {
         font = "Consolas",
         size = 35,
         extended = true,
