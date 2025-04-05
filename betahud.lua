@@ -14,13 +14,4 @@ function PLUGIN:HUDPaint()
     draw.DrawText(ply:Health(), "BetaHud", 38, ScrH() - 40, Color(255, 153, 51, 180))
     draw.DrawText("⛊", "BetaLittleBigHud", 100, ScrH() - 45, Color(255, 153, 51, 180))
     draw.DrawText(ply:Armor(), "BetaHud", 133, ScrH() - 40, Color(255, 153, 51, 180))
-	-- If you have plugin Needs, you can uncomment it and it works just fine
-	--[[
-	if (LocalPlayer():GetLocalVar("satiety") != nil and LocalPlayer():GetLocalVar("saturation") != nil) then
-	draw.DrawText("❦", "BetaHud", 195, ScrH() - 40, Color(255, 153, 51, 180))
-    draw.DrawText(LocalPlayer():GetLocalVar("satiety"), "BetaHud", 228, ScrH() - 40, Color(255, 153, 51, 180))
-    draw.DrawText("☕", "BetaLittleBigHud", 290, ScrH() - 45, Color(255, 153, 51, 180))
-    draw.DrawText(LocalPlayer():GetLocalVar("saturation"), "BetaHud", 323, ScrH() - 40, Color(255, 153, 51, 180))
-	end
-	]]
 end
